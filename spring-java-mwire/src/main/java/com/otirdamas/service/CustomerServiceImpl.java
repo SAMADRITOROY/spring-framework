@@ -13,7 +13,7 @@ public class CustomerServiceImpl implements CustomerService {
 
 	private CustomerRepository customerRepository;
 
-
+//	for constructor-injection
 	public CustomerServiceImpl(CustomerRepository custRepo) {
 		this.customerRepository = custRepo;
 	}
