@@ -3,11 +3,8 @@ package com.otirdamas.repository;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.springframework.stereotype.Component;
-
 import com.otirdamas.model.Customer;
 
-@Component("customerRepository")
 public class HibernateCustomerRepositoryImpl implements CustomerRepository {
 
 	@Override

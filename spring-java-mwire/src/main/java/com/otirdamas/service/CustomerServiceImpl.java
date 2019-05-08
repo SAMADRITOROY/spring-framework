@@ -2,12 +2,9 @@ package com.otirdamas.service;
 
 import java.util.List;
 
-import org.springframework.stereotype.Service;
-
 import com.otirdamas.model.Customer;
 import com.otirdamas.repository.CustomerRepository;
 
-@Service("customerService")
 public class CustomerServiceImpl implements CustomerService {
 
 
